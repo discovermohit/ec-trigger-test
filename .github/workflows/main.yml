@@ -12,4 +12,4 @@ jobs:
         url: "http://54.209.68.230:8080"
         user: "Mohit"
         token: ${{ secrets.TOKEN }}
-        job: "/Application/Dev/analytics-engine"
+        job: "Application/job/Dev/job/analytics-engine/"
