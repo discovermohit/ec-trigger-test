@@ -12,5 +12,5 @@ jobs:
           jenkins_url: "http://54.209.68.230:8080/"
           jenkins_user: "Mohit"
           jenkins_token: ${{ secrets.TOKEN }}
-          job_name: "Application/job/Dev/job/analytics-engine/"
+          job_name: "Application/job/Dev/job/analytics-engine"
           job_timeout: "3600"
