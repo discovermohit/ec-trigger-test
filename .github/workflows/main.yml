@@ -1,7 +1,5 @@
-name: Your GHA
-on:
-  pull_request:
-    types: [opened, synchronize]
+name: trigger jenkins job
+on: [push]
 
 jobs:
   your_job_name:
