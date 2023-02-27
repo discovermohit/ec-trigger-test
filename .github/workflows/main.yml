@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger single Job
-      uses: discovermohit/ec-trigger-test@main
+      uses: appleboy/jenkins-action@0.0.1
       with:
         url: "http://54.209.68.230:8080/"
         user: "Mohit"
